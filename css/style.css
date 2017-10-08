@@ -97,18 +97,41 @@ h3{
 
 @media (max-width: 500px) {
   .thead{
-    font-size: 11px;
+    font-size: 12px;
   }
 
   .tbody{
-    font-size: 9px;
+    font-size: 10px;
   }
 
   .material-icons{
-    font-size: 15px;
+    font-size: 16px;
   }
 
   }
+
+  @media (max-width: 330px) {
+    .mar{
+
+    }
+    td{
+      padding: 10px 3px;
+    }
+
+
+    #table .container{
+      margin-left: 0;
+
+    }
+
+    }
+
+    @media (max-width: 300px) {
+
+      td{
+        padding: 10px 0px;
+      }
+      }
 
 
 /*Responsive*/
