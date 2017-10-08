@@ -24,6 +24,10 @@ p{
   font-size: 19px;
 }
 
+li{
+  font-size: 19px;
+}
+
 h3{
   font-weight: bold;
   padding-bottom: 5px;
@@ -36,17 +40,29 @@ h3{
     padding-bottom: 125px;
 }
 
+.info-2{
+    background: #212936;
+    color: #fff;
+    padding-top: 114px;
+    padding-bottom: 125px;
+}
+
 .header .me {
     background: none !important;
     padding-top: 80px;
     padding-bottom: 160px;
 }
 
+<<<<<<< HEAD
 .table{
     background: #212936;
     color: #fff;
     padding-top: 114px;
     padding-bottom: 125px;
+=======
+#info img{
+  padding-top: 50px;
+>>>>>>> d93c0c849444e45d6350df733d94150006dace08
 }
 
 .clientes{
