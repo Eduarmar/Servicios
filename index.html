@@ -8,6 +8,7 @@
   <!--Import materialize.css-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 
 
@@ -18,9 +19,40 @@
 
 <body>
 
-  <section id="header">
+  <div class="container-fluid header">
+    <div class="center">
+      <img src="images/logo.jpg" class="responsive-img" width="210px" alt="">
+    </div>
+    <div class="container me">
+      <h3>Si tu problema es de ventas, llegaste al lugar correcto</h3>
+      <p>Durante años nos hemos dedicado a ayudar a los dueños de negocio a incrementar sus ventas
+        y hacer crecer su negocio, tenemos casos en los cuales el incremento va desde el 15% al 100%
+        y la verdad <span class="resalte">tu negocio puede ser el próximo caso de éxito</span>.</p>
+      <div class="center">
+        <img src="images/clientes.png" class="clientes responsive-img" width="500px" alt="">
+      </div>
+    </div>
+  </div>
 
-  </section>
+  <div class="container-fluid info-1">
+    <div class="container me">
+      <h3 class="center">¿Quién es Grupo Alternativa?</h3>
+      <br>
+      <div class="row valign-wrapper">
+        <div class="col l4 push-l8 col m4 push-m8 s10 push-s1 center">
+          <img src="images/Logo white.png" class="responsive-img" width="250px" alt="">
+        </div>
+        <div class="col l8 pull-l4 col m8 pull-m4 s10 push-s1">
+          <p>Es una empresa especializada en la asesoría comercial y marketing digital para pymes,
+            contamos con presencia en Venezuela, Colombia, Chile y Argentina.</p>
+        </div>
+
+      </div>
+      <br>
+      <p>Antes de solicitar nuestra visita personalizada te pido leas hasta el final la variedad de opciones que tenemos para hacer despegar tus ventas. </p>
+
+    </div>
+  </div>
 
 
   <section id="info">
@@ -40,7 +72,13 @@
 
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-
+  <script type="text/javascript">
+(function() {
+	var cn = document.createElement('script'); cn.type = 'text/javascript';
+	cn.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.compareninja.com/API/table/119117?cnurl=' + window.location.href;
+	var s = document.getElementsByTagName('head')[0].appendChild(cn);
+})();
+</script>
   <script>
     $(document).ready(function() {
       $('.materialboxed').materialbox();

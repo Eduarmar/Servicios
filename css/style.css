@@ -1,9 +1,50 @@
 
 body{
-  background-color: #white;
+font-family: 'Montserrat', sans-serif;
 }
 
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+}
 
+.header {
+    background: #212936;
+    color: #fff;
+}
+
+.resalte{
+  font-weight: bold;
+  color: #e53935;
+  font-size: 20px;
+}
+
+p{
+  font-size: 19px;
+}
+
+h3{
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.info-1{
+    background: #212121;
+    color: #fff;
+    padding-top: 114px;
+    padding-bottom: 125px;
+}
+
+.header .me {
+    background: none !important;
+    padding-top: 80px;
+    padding-bottom: 160px;
+}
+
+.clientes{
+  padding-top: 80px;
+}
 
 /*Responsive*/
 
@@ -20,10 +61,13 @@ body{
 }
 
 @media (max-width: 600px) {
-
+  .valign-wrapper{
+  display: inherit;
 }
 
 @media (max-width: 400px) {
+
+  }
 
   }
 
