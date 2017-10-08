@@ -42,9 +42,25 @@ h3{
     padding-bottom: 160px;
 }
 
+.table{
+    background: #212936;
+    color: #fff;
+    padding-top: 114px;
+    padding-bottom: 125px;
+}
+
 .clientes{
   padding-top: 80px;
 }
+
+.thead{
+  font-size: 16px;
+}
+
+.striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+   background-color: #212121;
+}
+
 
 /*Responsive*/
 
@@ -65,14 +81,21 @@ h3{
   display: inherit;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
+  .thead{
+    font-size: 11px;
+  }
 
+  .tbody{
+    font-size: 9px;
+  }
+
+  .material-icons{
+    font-size: 15px;
   }
 
   }
 
-
-}
 
 /*Responsive*/
 
