@@ -53,17 +53,16 @@ h3{
     padding-bottom: 160px;
 }
 
-<<<<<<< HEAD
+#info img{
+  padding-top: 50px;
+}
+
 .table{
     background: #212936;
     color: #fff;
     padding-top: 114px;
     padding-bottom: 125px;
-=======
-#info img{
-  padding-top: 50px;
->>>>>>> d93c0c849444e45d6350df733d94150006dace08
-}
+  }
 
 .clientes{
   padding-top: 80px;
