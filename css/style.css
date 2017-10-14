@@ -15,18 +15,18 @@ label {
 }
 
 .header {
-    background: #212936;
-    color: #fff;
+    background: white;
+    color: #000;
 }
 
 .resalte{
   font-weight: bold;
   color: #e53935;
-  font-size: 20px;
+  font-size: 23px;
 }
 
 p{
-  font-size: 19px;
+  font-size: 22px;
 }
 
 li{
@@ -39,31 +39,34 @@ h3{
 }
 
 .info-1{
-    background: #212121;
-    color: #fff;
-    padding-top: 114px;
-    padding-bottom: 125px;
+    background: #004f79;
+    color: #FFF;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .info-2{
-    background: #212936;
-    color: #fff;
-    padding-top: 114px;
-    padding-bottom: 125px;
+    background: #e1eef6;
+    color: #000;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .header .me {
     background: none !important;
-    padding-top: 80px;
-    padding-bottom: 160px;
+    padding-top: 70px;
+    padding-bottom: 120px;
 }
 
-#info img{
+.tipo{
+
+  border-color: #e57373;
+  border: solid;
 }
 
 .table{
-    background: #212936;
-    color: #fff;
+    background: #e1eef6;
+    color: #000;
     padding-top: 114px;
     padding-bottom: 125px;
   }
@@ -77,9 +80,13 @@ h3{
 }
 
 .striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
-   background-color: #212121;
+   background-color: #004f79;
+   color: #FFF;
 }
 
+.awebe{
+  background-color: #a40d12;
+}
 
 /*Responsive*/
 
@@ -92,12 +99,19 @@ h3{
 }
 
 @media (max-width: 992px) {
-
+ .header .valign-wrapper{
+display: inherit;
+}
 }
 
 @media (max-width: 600px) {
   .valign-wrapper{
   display: inherit;
+}
+h3{
+  font-size: 30px;
+}
+
 }
 
 @media (max-width: 500px) {
