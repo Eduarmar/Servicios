@@ -15,15 +15,10 @@ label {
 }
 
 .header {
-<<<<<<< HEAD
     background: #004e65;
     color: #fff;
     background: white;
     color: #000;
-=======
-    background-image: url(../images/bg2.jpg);
-    color: #FFF;
->>>>>>> dc52dc7ec0356427a288fb41cbbb1fa7d9e2dbc3
 }
 
 .resalte{
