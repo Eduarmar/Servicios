@@ -15,18 +15,8 @@ label {
 }
 
 .header {
-<<<<<<< HEAD
     background-image: url(../images/bg2.jpg);
     color: #FFF;
-=======
-<<<<<<< HEAD
-    background: #004e65;
-    color: #fff;
-=======
-    background: white;
-    color: #000;
->>>>>>> 6e2cc52259abf491b0c93178c20637c3213f7120
->>>>>>> d2554485ad35869870a74db07e4e9ebc0553d9b8
 }
 
 .resalte{
@@ -49,19 +39,6 @@ h3{
 }
 
 .info-1{
-<<<<<<< HEAD
-    background: #e1eef6;
-    color: black;
-    padding-top: 114px;
-    padding-bottom: 125px;
-}
-
-.info-2{
-    background: #004e65;
-    color: #fff;
-    padding-top: 114px;
-    padding-bottom: 125px;
-=======
     background: #004f79;
     color: #FFF;
     padding-top: 60px;
@@ -73,7 +50,6 @@ h3{
     color: #000;
     padding-top: 60px;
     padding-bottom: 60px;
->>>>>>> 6e2cc52259abf491b0c93178c20637c3213f7120
 }
 
 .header .me {
