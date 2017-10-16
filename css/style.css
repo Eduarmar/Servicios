@@ -60,10 +60,16 @@ h3{
     padding-bottom: 120px;
 }
 
+<<<<<<< HEAD
 ul,li {
         list-style-type: circle !important;
+=======
+ul,li { list-style-type: circle !important;
+        list-style-position:inside;
+>>>>>>> b5a035198a276f9c2f72f008a01fd0f8450435be
         margin:0;
         padding:0;}
+
 
 .tipo{
 
