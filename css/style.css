@@ -15,7 +15,7 @@ label {
 }
 
 .header {
-    background: #212936;
+    background: #004e65;
     color: #fff;
 }
 
@@ -39,14 +39,14 @@ h3{
 }
 
 .info-1{
-    background: #212121;
-    color: #fff;
+    background: #e1eef6;
+    color: black;
     padding-top: 114px;
     padding-bottom: 125px;
 }
 
 .info-2{
-    background: #212936;
+    background: #004e65;
     color: #fff;
     padding-top: 114px;
     padding-bottom: 125px;
