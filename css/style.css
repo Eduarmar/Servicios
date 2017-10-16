@@ -58,6 +58,11 @@ h3{
     padding-bottom: 120px;
 }
 
+ul,li { list-style-type: circle;
+        list-style-position:inside;
+        margin:0;
+        padding:0; }
+
 .tipo{
 
   border-color: #e57373;
