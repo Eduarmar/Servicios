@@ -88,6 +88,13 @@ h3{
   background-color: #a40d12;
 }
 
+.hidden{
+     opacity:0;
+}
+.visible{
+     opacity:1;
+}
+
 /*Responsive*/
 
 @media (max-width: 1550px) {
