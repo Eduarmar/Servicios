@@ -15,10 +15,8 @@ label {
 }
 
 .header {
-    background: #004e65;
-    color: #fff;
-    background: white;
-    color: #000;
+    background-image: url(../images/bg2.jpg);
+    color: #FFF;
 }
 
 .resalte{
@@ -59,17 +57,6 @@ h3{
     padding-top: 70px;
     padding-bottom: 120px;
 }
-
-<<<<<<< HEAD
-ul,li {
-        list-style-type: circle !important;
-=======
-ul,li { list-style-type: circle !important;
-        list-style-position:inside;
->>>>>>> b5a035198a276f9c2f72f008a01fd0f8450435be
-        margin:0;
-        padding:0;}
-
 
 .tipo{
 
