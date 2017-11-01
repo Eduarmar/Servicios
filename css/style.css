@@ -21,9 +21,10 @@ label {
 
 .resalte{
   font-weight: bold;
-  color: #e53935;
+  color: #e1e535;
   font-size: 23px;
 }
+
 
 p{
   font-size: 22px;
@@ -109,6 +110,10 @@ h3{
  .header .valign-wrapper{
 display: inherit;
 }
+.me .valign-wrapper{
+display: inherit;
+}
+
 }
 
 @media (max-width: 600px) {
